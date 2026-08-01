@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of /.well-known/* on projectadmission.com
+host: projectadmission.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 200
+  file: project-admission-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
